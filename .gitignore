@@ -1,0 +1,20 @@
+# Course data (not redistributable)
+*.xlsx
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+
+# Figures written by the notebook into the project root (report/ keeps its own copies)
+/fig_*.pdf
+
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# OS
+.DS_Store
